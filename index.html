@@ -19,7 +19,7 @@
                       <h5 class="card-title">Snow White</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="fw-bold">Price: 50 $</p>
-                      <a href="#" class="btn btn-primary text-uppercase">Add to Cart</a>
+                      <a onclick="addToCard(this)" href="#" class="btn btn-primary text-uppercase">Add to Cart</a>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                   <h5 class="card-title">Snow Yellow</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <p class="fw-bold">Price: 30 $</p>
-                  <a href="#" class="btn btn-primary text-uppercase">Add to Cart</a>
+                  <a onclick="addToCard(this)" href="#" class="btn btn-primary text-uppercase">Add to Cart</a>
                 </div>
             </div>
            </div>
@@ -43,15 +43,18 @@
                       <h5 class="card-title">Snow Red</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="fw-bold">Price: 100 $</p>
-                      <a href="#" class="btn btn-primary text-uppercase">Add to Cart</a>
+                      <a onclick="addToCard(this)" href="#" class="btn btn-primary text-uppercase">Add to Cart</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
+            <div class="col text-start">
                 <div class="bg-light p-3">
-                    <h3>Code: Hero</h3>
-                    <p>Total: <span id="total-price">00</span></p>
-                    <p>Discount: <span id="discount">00</span></p>
+                    <h3>Code Hero</h3>
+                    <div id="price-section" class="text-start my-2 text-primary">
+
+                    </div>
+                    <p class="fw-bold">Total: <span id="total-price">00</span>$</p>
+                    <p class="fw-bold">Discount: <span id="discount">00</span></p>
                     <hr>
                     <h3>Grand Total: <span>00</span></h3>
                 </div>
