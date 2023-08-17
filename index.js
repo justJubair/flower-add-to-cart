@@ -14,3 +14,8 @@ function addToCard(target) {
   selectedFlowerContainer.appendChild(li);
   
 }
+
+function addDiscount() {
+    const discount = document.getElementById('discount').innerText;
+    console.log(discount);
+}
